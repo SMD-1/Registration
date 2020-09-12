@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>first Login page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style_1.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="box">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="switch-button" onclick="login()">Log In </button>
+				<button type="button" class="switch-button" onclick="signup()">Sign Up </button>
+
+			</div>	
+			
+				<form id="login" class="form-style">
+					<div id="sty">
+					<input type="text" class="data" placeholder="Username" required>
+					<input type="text" class="data" placeholder="Enter Password" required>
+					<br>
+					</div>
+					<input type="checkbox" class="check-box" ><span>Remember Password</span>
+					<br>
+					<button type="submit" class="submit-btn">Log In</button>
+				</form>
+				<form id="signup" class="form-style">
+					<div id="sty">
+					<input type="text" class="data" placeholder="Username" required>
+					<input type="email" class="data" placeholder="Email Id " required>
+					<input type="text" class="data" placeholder="Create Password" required>
+					</div>
+					<input type="checkbox" class="check-box" required><span>I agree terms & conditions</span>
+					<br>
+					<button type="submit" class="submit-btn">Sign Up</button>
+				</form>
+			
+		</div>
+	</div>
+<script> 
+	var x = document.getElementById("login");
+	var y = document.getElementById("signup");
+	var z = document.getElementById("btn");
+
+	function signup(){
+		x.style.left = "-445px";
+		y.style.left = "5px";
+		z.style.left = "110px";
+
+	}
+	function login(){
+		x.style.left = "5px";
+		y.style.left = "445px";
+		z.style.left = "0";
+
+	}
+
+</script>
+
+</body>
+</html>
