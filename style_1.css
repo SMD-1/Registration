@@ -7,7 +7,7 @@
 	
 	height:115%;
 	width:100%;
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("backimg.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("backimg.svg");
 	background-size: cover;
 	position: absolute;
 
@@ -16,12 +16,13 @@
 	width:400px;
 	height:490px;
 	position:relative;
-	margin: 10% auto;
-	padding:5px;
-	background-color:#fff;
+	margin: 9% auto;
+	padding:10px;
+	background-color: #A7A7A9 ;
 	overflow:hidden;
 	
 }
+
 .button-box{
 	width: 230px;
 	margin:35px auto;
@@ -102,7 +103,7 @@ span{
 	left:70px;
 	text-align: center;
 	font-size: 15px;
-	bottom:63px;
+	bottom:62px;
 	position:absolute;
 }
 #login{
