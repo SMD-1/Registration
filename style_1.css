@@ -20,6 +20,8 @@
 	padding:10px;
 	background-color: #A7A7A9 ;
 	overflow:hidden;
+	border-radius:15px;
+	box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 	
 }
 
@@ -40,13 +42,15 @@
 }
 #btn{
 	top:0;
+	bottom:0;
 	left:0;
+	right:0;
 	position: absolute;
-	width:125px;
+	width:120px;
 	height:100%;
 	background: linear-gradient( to right, #b65eba,#2ebde1);
 	border-radius: 30px;
-	transition: 0.5s;
+	transition: 0.7s;
 
 }
 .form-style{
@@ -58,7 +62,7 @@
 
 }
 #sty{
-	width:80%;
+	width:70%;
 	margin:auto;
 	border-left:0;
 	border-right:0;
@@ -91,19 +95,20 @@
 	display:block;
 	background: linear-gradient( to right, #b65eba,#2ebde1);
 	border:0;
-	outline:0;
+	outline:none;
 	border-radius: 30px;
 }
 .check-box{
-	margin:30px 10px 30px 50px;
+	margin:30px 10px 30px 60px;
 	left:30px;
+	background:transparent;
 }
 span{
 	color:black;
-	left:70px;
+	left:80px;
 	text-align: center;
 	font-size: 15px;
-	bottom:62px;
+	bottom:63px;
 	position:absolute;
 }
 #login{
