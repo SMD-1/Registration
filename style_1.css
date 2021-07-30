@@ -7,7 +7,7 @@
 	
 	height:115%;
 	width:100%;
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url("backimg.svg");
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
 	background-size: cover;
 	position: absolute;
 
